@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="headAndFooterSize">25dp</dimen>
+    <item name="head" type="id"></item>
+    <item name="footer" type="id"></item>
+</resources>

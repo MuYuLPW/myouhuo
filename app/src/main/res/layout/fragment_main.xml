@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/frag_main_rg"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="首页"
+            android:id="@+id/frag_main_shouye"
+            android:drawableTop="@drawable/frag_main_but_shouye"
+            style="@style/fragment_main_rb_style" />
+        <RadioButton
+            android:text="分类"
+            android:id="@+id/frag_main_fenlei"
+            android:drawableTop="@drawable/frag_main_but_fenglei"
+            style="@style/fragment_main_rb_style" />
+        <RadioButton
+            android:text="逛"
+            android:id="@+id/frag_main_guang"
+            android:drawableTop="@drawable/frag_main_but_guang"
+            style="@style/fragment_main_rb_style" />
+        <RadioButton
+            android:text="购物车"
+            android:id="@+id/frag_main_gouwuche"
+            android:drawableTop="@drawable/frag_main_but_gouwuche"
+            style="@style/fragment_main_rb_style" />
+        <RadioButton
+            android:text="我的"
+            android:id="@+id/frag_main_wode"
+            android:drawableTop="@drawable/frag_main_but_wode"
+            style="@style/fragment_main_rb_style" />
+    </RadioGroup>
+<FrameLayout
+    android:layout_above="@id/frag_main_rg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_main"></FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.youhuo.ChooseActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@mipmap/choose"
+    android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mark"></View>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/rgroup"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/choose_bt_boys"
+            style="@style/choose_bt_style"
+            android:background="@drawable/choose_rb_boys"/>
+        <RadioButton
+            android:id="@+id/choose_bt_girls"
+            style="@style/choose_bt_style"
+            android:background="@drawable/choose_rb_girls"/>
+        <RadioButton
+            android:id="@+id/choose_bt_kids"
+            style="@style/choose_bt_style"
+            android:background="@drawable/choose_rb_kids"/>
+        <RadioButton
+            android:id="@+id/choose_bt_life"
+            style="@style/choose_bt_style"
+            android:background="@drawable/choose_rb_life"/>
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">youhuo</string>
+    <array name="life_menu">
+        <item>男生</item>
+        <item>女生</item>
+        <item>潮童</item>
+        <item>创意生活</item>
+        <item>奥莱</item>
+        <item>潮流优选</item>
+        <item>明星原创</item>
+        <item>全球购</item>
+        <item>逛</item>
+    </array>
+    <array name="right_menu">
+        <item>查看全部</item>
+        <item>只看男生</item>
+        <item>只看女生</item>
+    </array>
+</resources>
